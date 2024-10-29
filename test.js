@@ -55,27 +55,46 @@
 // let temp = {...obj, ...obj2};
 // console.log(temp);
 
-class Hello {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-}
+// class Hello {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
 
-class hi extends Hello {
-  constructor(name, age, grade, dept) {
-    super(name, age);
-    this.grade = grade;
-    this.dept = dept;
-  }
-}
+// class hi extends Hello {
 
-class hey extends hi {
-  constructor(name, age, grade, dept, city) {
-    super(name, age, grade, dept, city);
-    this.city = city;
-  }
-}
+//   constructor(name, age, grade, dept) {
+//     super(name, age);
+//     this.grade = grade;
+//     this.dept = dept;
+//   }
+// }
+// const result = new hi("Shohag", 20, "12th", "Computer", "Pabna");
+// console.log(result);
 
-const result = new hey("Shohag", 20, "12th", "Computer", "Pabna");
-console.log(result);
+// class hey extends hi {
+//   constructor(name, age, grade, dept, city) {
+//     this.city = city;
+//   }
+// }
+
+// const arr = ["Shohag", "Sumon vai", "Mahbub vai", "Anis vai"];
+// arr.map((el) => {
+//   if ("Mahbub" == el){
+//     return arr.unshift() = "Mahbub";
+//   }
+// });
+
+// console.log(arr);
+
+const arr = [0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log(arr);
+
+let ReturnValue = arr.filter(el => {
+    if (el === 1){
+        return el;
+    }
+})
+
+console.log(ReturnValue);
