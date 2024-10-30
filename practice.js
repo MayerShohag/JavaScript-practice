@@ -42,17 +42,17 @@
 
 
 
-const object = {
-  name : "Shohag",
-  age : 20,
-  dept : "Computer",
-  session : "2021-22",
-}
+// const object = {
+//   name : "Shohag",
+//   age : 20,
+//   dept : "Computer",
+//   session : "2021-22",
+// }
 
-let string = JSON.stringify(object);
-console.log(string);
+// let string = JSON.stringify(object);
+// console.log(string);
 
 
-let result = JSON.parse(string);
-console.log(result);
+// let result = JSON.parse(string);
+// console.log(result);
 
